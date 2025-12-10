@@ -11,12 +11,6 @@ export default defineConfig({
         changeOrigin: true,
         secure: false,
       },
-      '/storage': {
-        target: 'https://assets.suitdev.com/storage',
-        changeOrigin: true,
-        secure: false,
-        rewrite: (path) => path.replace(/^\/storage/, ''),
-      },
     },
   },
 })
