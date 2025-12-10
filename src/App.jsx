@@ -6,7 +6,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
-        {/* Placeholder routes for menu testing */}
         <Route path="/work" element={<Landing />} />
         <Route path="/about" element={<Landing />} />
         <Route path="/services" element={<Landing />} />
